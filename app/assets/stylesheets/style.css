@@ -1,0 +1,53 @@
+body{
+	font-family: 'Raleway', sans-serif;
+}
+h2{
+	font-family: 'Raleway', sans-serif;
+}
+.main-head{
+	text-align: center;
+}
+.title{
+	font-size: 45pt;
+	color: #f7bde5; /*#f6cde9;*/
+	text-align: center;
+}
+#front-img{
+	height: 400px;
+	width: 250px;
+}
+#front-img2{
+	height: 400px;
+	width: 400px;
+}
+#blue{
+	height: 3px;
+	background-color: #52bab3;
+	width: 40%;
+	float:center;
+}
+#a{
+	color: #fff;
+}
+#small{
+	font-size: 12pt;
+}
+#large{
+	font-size: 25pt;
+	font-family: 'Raleway', sans-serif;
+}
+#question{
+	color: #f190c2;
+	font-family: 'Raleway', sans-serif;
+}
+#medium{
+	font-size: 14pt;
+}
+.heading{
+	color: #f7bde5;
+	font-family: 'Raleway', sans-serif;
+}
+#text{
+	color: #f190c2;
+	font-family: 'Raleway', sans-serif;
+}

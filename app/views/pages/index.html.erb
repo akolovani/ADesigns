@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <link rel="stylesheet" type="text/css" href="style.css">
+  <link rel="stylesheet" type="text/css" href="Teal.css">
+  <link href='http://fonts.googleapis.com/css?family=Raleway:100' rel='stylesheet' type='text/css'>
+  <title>Portfolio | A + K Designs</title>
+</head>
+<body>
+  <div class = "main-head">
+    <h2 class = "title">A + K Designs</h2>
+    <center>
+        <nav class="navbar" role="navigation" style = "background-color: #48D0CC;">
+              <span id="toggle" class="icn--nav-toggle is-displayed-mobile">
+                <b class="srt">Toggle</b>
+              </span>
+              <ul class="nav is-collapsed-mobile">
+                <li class="nav__item" id = "a">PORTFOLIO</li>
+                <li class="nav__item"><a id = "a" href="http://www.sprinklesandpinkblush.blogspot.com">BLOG</a></li>
+              </ul>
+          </nav> 
+          </center>    
+    <br>
+  </div>
+  <div class = "grid">
+          </div>
+      <div class = "grid_col-12">
+        <h2 id = "large">my portfolio ...</h2>
+        <br>
+        <div class = "grid_col-6">
+        <%= image_tag("FRONT-2.jpg", :id => "front-img") %> 
+        <p>StylingOn</p>
+        <%= image_tag("knot.png", :id => "front-img2") %> 
+        <p>Tying the Knot</p>
+      </div>
+      <div class = "grid_col-6">
+        <%= image_tag("married.png", :id => "front-img") %> 
+        <p>Our Married Life</p>
+        <%= image_tag("anna.png", :id => "front-img2") %> 
+        <p>Anna Carey Books </p>
+        </div>
+      </div>
+      <hr>
+      <div class = "grid_col-12">
+        <h2 id = "small">A + K Designs</h2>
+      </div>
+    </div>
+</body>
+</html>
